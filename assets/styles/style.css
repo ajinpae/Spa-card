@@ -1,60 +1,98 @@
 .card {
-    margin: 100px auto;
     width: 1570px;
+    margin: 100px auto;
     height: 963px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.616);
     border-radius: 20px;
-    display: grid;
+    display: grid;  
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .cardContent{
-    display: grid; 
+    display: flex;
+    flex-direction: column;
     background-color: #F6F6F1;
     justify-content: center;
-    align-items: center;
+     padding-left: 40px;
+      align-items: center;
+      height: 100%;
 }
 .cardText{
  
-padding: 100px 100px 0 100px;
+padding: 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .welcome{
-    font-weight: 400;
+angle: 0 deg;
+opacity: 1;
+top: 209.67px;
+left: 85.77px;
+height: 33px;
+    font-weight: 355;
     font-size: 24px;
     color: #313131;
     gap: 25px;
+    font-family: 'Vidaloka', serif;
+    max-width: 541px;
+  text-align: left; 
+   margin: 0 auto;
 }
 h1 {
-    font-weight: 400;
+    font-family: 'Vidaloka', serif;
+    font-weight: 400px;
+    top: 268px;
+    left: 85px;
 font-size: 64px;
-line-height: 78px;
+line-height: 100%;
+height: 164px;
 color: #091605;
 gap: 25px;
+max-width: 563px;
+  text-align: left; 
+   margin: 0 auto;
+    padding: 24px;
 }
+
 p {
-    font-weight: 400;
-    font-size: 16px;  
-    color: #4F584C; 
+   font-weight: 541;
+height: 78;
+opacity: 1;
+top: 541px;
+left: 86px;
+font-family: Work Sans;
+color: #4F584C; 
 gap: 25px;
+ max-width: 541px;
+  text-align: center; 
+   margin: 0 auto; 
+   padding: 24px;
 }
 
 button{
     font-family: 'Work Sans', sans-serif;
     width: 166px;
     height: 42px;
-    font-size: 14px;
-    font-weight: 500px;
     cursor: pointer;
     border-radius: 10px;
     border: 2px solid #708817;
-    gap: 25px;
+    display: center;
+    justify-content: center;   /* Центрирует кнопки по горизонтали */
+    align-items: center;    
+       display: inline-block;
+   margin-left: 20px;
+   
 }
 .bot1 {
 background-color: #708817;
 color: #fff;
 }
-.bot2 {
+.bo2 {
 background-color: #fff;
 color: #708817;
 }
@@ -74,7 +112,7 @@ background-size: cover;
     color: #708817;
 transition: all 0.3s ease;
 }
-.bot2:hover{
+.bo2:hover{
     background-color: #708817;
     color: #fff;
     transition: all 0.3s ease;
