@@ -1,0 +1,81 @@
+.card {
+    margin: 100px auto;
+    width: 1570px;
+    height: 963px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.616);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cardContent{
+    display: grid; 
+    background-color: #F6F6F1;
+    justify-content: center;
+    align-items: center;
+}
+.cardText{
+ 
+padding: 100px 100px 0 100px;
+}
+
+.welcome{
+    font-weight: 400;
+    font-size: 24px;
+    color: #313131;
+    gap: 25px;
+}
+h1 {
+    font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+color: #091605;
+gap: 25px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;  
+    color: #4F584C; 
+gap: 25px;
+}
+
+button{
+    font-family: 'Work Sans', sans-serif;
+    width: 166px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 500px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #708817;
+    gap: 25px;
+}
+.bot1 {
+background-color: #708817;
+color: #fff;
+}
+.bot2 {
+background-color: #fff;
+color: #708817;
+}
+.cardImage{
+    background-image: url('../img/bg.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.cardText>div{
+    margin-top: 75px;
+    display: flex;
+    gap: 9px;
+}
+.bot1:hover{
+    background-color: #fff;
+    color: #708817;
+transition: all 0.3s ease;
+}
+.bot2:hover{
+    background-color: #708817;
+    color: #fff;
+    transition: all 0.3s ease;
+}
